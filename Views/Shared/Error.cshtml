@@ -1,0 +1,30 @@
+﻿@* Views/Shared/Error.cshtml *@
+@model CarInsurance.Models.ErrorViewModel
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="text-danger animate__animated animate__fadeInDown">Error</h1>
+    <h2 class="text-danger animate__animated animate__fadeInDown animate__delay-1s">An error occurred while processing
+        your request.</h2>
+
+    @if (Model.ShowRequestId)
+    {
+        <p class="animate__animated animate__fadeInUp">
+            <strong>Request ID:</strong> <code>@Model.RequestId</code>
+        </p>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <p class="animate__animated animate__fadeInUp animate__delay-1s">
+            <strong>Error Message:</strong> <span>@Model.ErrorMessage</span>
+        </p>
+    }
+
+    <p class="animate__animated animate__fadeInUp animate__delay-2s">
+        <strong>Please contact support if the issue persists.</strong>
+    </p>
+</div>
