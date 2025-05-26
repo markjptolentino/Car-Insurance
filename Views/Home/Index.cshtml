@@ -1,8 +1,39 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewBag.Title = "Cosmic Car Insurance 🚗";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="hero-section text-center text-white">
+    <h1 class="display-3">🌌 Welcome to Cosmic Car Insurance</h1>
+    <p class="lead">Protect your journey across the stars with our stellar insurance plans!</p>
+    <a href="@Url.Action("Create", "Insuree")" class="btn btn-primary btn-lg mt-3">Get a Quote 🚀</a>
+    <a href="@Url.Action("Admin", "Insuree")" class="btn btn-secondary btn-lg mt-3 ml-2">Admin Dashboard 🌟</a>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card shadow border-primary">
+                <div class="card-body text-center">
+                    <h5 class="card-title">🚗 Affordable Rates</h5>
+                    <p class="card-text">Starting at just $50/month, tailored to your cosmic journey.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow border-primary">
+                <div class="card-body text-center">
+                    <h5 class="card-title">🌠 Fast Quotes</h5>
+                    <p class="card-text">Get your personalized quote in seconds!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow border-primary">
+                <div class="card-body text-center">
+                    <h5 class="card-title">🛡️ Full Coverage</h5>
+                    <p class="card-text">Opt for full coverage to protect against all galactic mishaps.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

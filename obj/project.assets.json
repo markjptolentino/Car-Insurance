@@ -6535,11 +6535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\markjptolentino\\Desktop\\CarInsurance\\CarInsurance\\CarInsurance.csproj",
+      "projectUniqueName": "C:\\Users\\markjptolentino\\Desktop\\Car-Insurance\\CarInsurance.csproj",
       "projectName": "CarInsurance",
-      "projectPath": "C:\\Users\\markjptolentino\\Desktop\\CarInsurance\\CarInsurance\\CarInsurance.csproj",
+      "projectPath": "C:\\Users\\markjptolentino\\Desktop\\Car-Insurance\\CarInsurance.csproj",
       "packagesPath": "C:\\Users\\markjptolentino\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\markjptolentino\\Desktop\\CarInsurance\\CarInsurance\\obj\\",
+      "outputPath": "C:\\Users\\markjptolentino\\Desktop\\Car-Insurance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/nTSgbFpw54=",
+  "dgSpecHash": "+yLWehESKTc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\markjptolentino\\Desktop\\CarInsurance\\CarInsurance\\CarInsurance.csproj",
+  "projectFilePath": "C:\\Users\\markjptolentino\\Desktop\\Car-Insurance\\CarInsurance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\markjptolentino\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\markjptolentino\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
